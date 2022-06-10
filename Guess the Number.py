@@ -24,3 +24,6 @@ for num_guess in range(5):
         print("That numer is too high. Try again")
     else:
         break
+
+if player_guess == rand_num: # Did the player guess the number correctly?
+    num_guess += 1
