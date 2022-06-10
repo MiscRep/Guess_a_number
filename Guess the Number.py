@@ -1,5 +1,6 @@
 # Guess the Number
 
+from os import pread
 import random
 
 num_guess = 0
@@ -16,3 +17,10 @@ print(f"Now {player_name} you will have to guess a number between 1 - 20. You wi
 
 for num_guess in range(5):
     player_guess = int(input("Please guess a whole number between 1 - 20 and press [Enter]\n"))
+
+    if player_guess < rand_num:
+        print("That number is too low. Try again")
+    elif player_guess > rand_num:
+        print("That numer is too high. Try again")
+    else:
+        break
