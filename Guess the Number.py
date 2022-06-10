@@ -11,3 +11,5 @@ player_name = input("What should I call you? Please enter your name and press [E
 print(f"Nice to meet you {player_name}! Lets start the game.\n")
 
 rand_num = random.randint(1,20)
+
+print(f"Now {player_name} you will have to guess a number between 1 - 20. You will have 5 guesses.\n")
