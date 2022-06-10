@@ -13,3 +13,6 @@ print(f"Nice to meet you {player_name}! Lets start the game.\n")
 rand_num = random.randint(1,20)
 
 print(f"Now {player_name} you will have to guess a number between 1 - 20. You will have 5 guesses.\n")
+
+for num_guess in range(5):
+    player_guess = int(input("Please guess a whole number between 1 - 20 and press [Enter]\n"))
