@@ -1,6 +1,5 @@
 # Guess the Number
 
-from os import pread
 import random
 
 num_guess = 0
