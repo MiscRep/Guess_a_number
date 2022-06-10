@@ -27,3 +27,6 @@ for num_guess in range(5):
 
 if player_guess == rand_num: # Did the player guess the number correctly?
     num_guess += 1
+    print(f"Congrats {player_name} you guessed the correct number! You used {num_guess} guesses\n")
+else:
+    print(f"Sorry {player_name} you did not guess the correct number. The number was {rand_num}.\n")
